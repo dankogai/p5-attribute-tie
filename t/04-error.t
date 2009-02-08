@@ -1,5 +1,5 @@
 #
-# $Id: 04-error.t,v 0.1 2006/12/22 22:48:47 dankogai Exp dankogai $
+# $Id: 04-error.t,v 0.1 2006/12/22 22:48:47 dankogai Exp $
 #
 use strict;
 use warnings;

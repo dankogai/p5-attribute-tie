@@ -1,12 +1,12 @@
 package Attribute::Tie;
 #
-# $Id: Tie.pm,v 0.1 2006/12/22 22:47:49 dankogai Exp dankogai $
+# $Id: Tie.pm,v 0.2 2009/02/08 09:00:12 dankogai Exp $
 #
 use 5.008001;
 use strict;
 use warnings;
 use Attribute::Handlers;
-our $VERSION = sprintf "%d.%02d", q$Revision: 0.1 $ =~ /(\d+)/g;
+our $VERSION = sprintf "%d.%02d", q$Revision: 0.2 $ =~ /(\d+)/g;
 
 our %MOD2TIE;
 our %SIGIL = qw/HASH % ARRAY @ SCALAR $/;

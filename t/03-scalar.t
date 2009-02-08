@@ -1,5 +1,5 @@
 #
-# $Id: 03-scalar.t,v 0.1 2006/12/22 22:47:49 dankogai Exp dankogai $
+# $Id: 03-scalar.t,v 0.1 2006/12/22 22:47:49 dankogai Exp $
 #
 use strict;
 use warnings;

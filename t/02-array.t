@@ -1,5 +1,5 @@
 #
-# $Id: 02-array.t,v 0.1 2006/12/22 22:47:49 dankogai Exp dankogai $
+# $Id: 02-array.t,v 0.2 2009/02/08 09:00:27 dankogai Exp dankogai $
 #
 use strict;
 use warnings;
@@ -8,10 +8,10 @@ use Attribute::Tie;
 use Test::More qw/no_plan/;
 {
     package Tie::EchoArray;
-    use base 'Tie::Hash';
+    use base 'Tie::Array';
     sub TIEARRAY{ bless [], shift; }
     sub FETCH{ $_[1] }
-    sub FETCHSIZE{ ~0 };
+    sub FETCHSIZE{ 0x7fffffff };
 }
 
 my @array : Tie('EchoArray');
